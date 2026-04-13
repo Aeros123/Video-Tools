@@ -66,11 +66,3 @@ def convert():
 
 if __name__ == "__main__":
     app.run(debug=True, host='0.0.0.0', port=5000)
-
-echo "# Video-Tools" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Aeros123/Video-Tools.git
-git push -u origin main
